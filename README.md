@@ -9,8 +9,10 @@ Before running the ROS 2 nodes, necessary dependencies must be installed and con
 ### Dependencies
 Added the following dependencies to package.xml file:
 
+<pre>
 <exec_depend>rclpy</exec_depend>
 <exec_depend>std_msgs</exec_depend>
+</pre>
 
 ### Setup Configuration
 
