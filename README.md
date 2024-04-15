@@ -16,11 +16,12 @@ Added the following dependencies to package.xml file:
 
 Modified setup.py file to include the ROS 2 nodes as console scripts:
 
+<pre>
 entry_points={
         'console_scripts': [
             'talkerNode = talker_listener.talker_node:main',
             'listenerNode = talker_listener.listener_node:main'
         ],
     },
-
+</pre>
 This configuration helps in running the talkerNode and listenerNode directly from the command line.
